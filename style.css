@@ -1,0 +1,30 @@
+#position {
+    margin: 10%;
+    float: left;
+ }
+
+ #Back1 {
+     padding: 5%;
+    background-color: rgb(212, 80, 18);
+    border-radius: 5%;
+ }
+
+ #submit {
+    border: rgb(237, 240, 237) 1px solid; 
+    border-radius: 5%;
+    font-family: Verdana; 
+    margin-left: 20%;
+    font-size: 15px; 
+    background-color: darkorange; 
+    font-weight: bold;
+ }
+
+ #space {
+     margin: 10%;
+ }
+
+ #position2 {
+    margin-top: 5%;
+    margin-left: 48%;
+ }
+
