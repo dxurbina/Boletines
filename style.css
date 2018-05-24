@@ -3,6 +3,8 @@
     float: left;
  }
 
+  #img { max-width: 99%; }
+
  #Back1 {
      padding: 5%;
     background-color: rgb(212, 80, 18);
@@ -19,12 +21,18 @@
     font-weight: bold;
  }
 
- #space {
+ .space {
      margin: 10%;
  }
 
  #position2 {
     margin-top: 5%;
-    margin-left: 48%;
+    margin-left: 15%;
+    float: left;
+    width: 500px;
+    /* margin: 0 auto 0 auto;*/
+    padding: 5px;
+    /*background-color: #000000;*/
+    color: #fff;
  }
 
