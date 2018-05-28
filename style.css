@@ -1,5 +1,5 @@
 #position {
-    margin: 10%;
+    margin: 14%;
     float: left;
  }
 
@@ -24,15 +24,34 @@
  .space {
      margin: 10%;
  }
-
+/*
  #position2 {
-    margin-top: 5%;
-    margin-left: 15%;
+    margin-top: -1%;
+    margin-left: 27.7%;
     float: left;
-    width: 500px;
+    width: 585px;
     /* margin: 0 auto 0 auto;*/
-    padding: 5px;
+   /* padding: 5px;*/
     /*background-color: #000000;*/
-    color: #fff;
+   /* color: #fff;
+ }*/
+
+ .position-boletin {
+    /*margin-top: -1%;
+    margin-left: 27.7%;
+    float: left;
+    width: 585px;*/
+    /* margin: 0 auto 0 auto;*/
+    /*padding: 5px;*/
+    /*background-color: #000000;*/
+   /* color: #fff;*/
+
+    position: absolute;
+    margin-right: 250px;
+    margin-top: -1;
+    height: 670px;
+    width: 600px;
+    margin-top: -1;
+    margin-top: 0px;
  }
 

@@ -24,7 +24,7 @@
    
 
     <div id="position2">
-        <img id="img" src="nuevo-tapiz.jpg" alt="img">
+        <img id="img" class="position-boletin" src="nuevo-tapiz.jpg" alt="img">
     </div>
 </body>
 
