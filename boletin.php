@@ -10,11 +10,20 @@
             
         }
     }
-    
+   
+    setlocale(LC_ALL,"es_ES@euro","es_ES","esp");
     $db = conex();
     date_default_timezone_set('America/Managua');
+
     $hoy = getdate();
     $fechaActual = date('Y-m-d');
+    
+    echo strftime("%d");
+    echo strftime("%B");
+    echo strftime("%Y");
+
+    
+    
     /** Boletín Diaria */
     $diaria = array();
     $consult = $db->prepare("select par1 from loto_sorteos where fecha = ? and juego = 1
@@ -66,6 +75,7 @@
             print_r($t2);
             print_r('<br>');
             print_r($lagrande); */
+            
 ?>
 <!DOCTYPE html>
 <html lang="en">
