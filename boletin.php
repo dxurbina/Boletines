@@ -82,13 +82,17 @@
         if(isset($_REQUEST['option'])){
             if($_REQUEST['option'] == '1'){
                 ?>
+        <div class="row row-fluid">
+            <div class="col-sm-12">
                 <div id="position2">
                     <img id="img" src="img/img1.jpg" class="position-boletin" alt="img">
-                    <div class="" style="position: absolute; margin-top: 38.7%; margin-left: 10.5%;"><h1 class="mifuente2" style=""><?php  ?> 88</h1></div> 
-                    <div class="" style="position: absolute; margin-top: 38.7%; margin-left: 20.2%;"><h1 class="mifuente2" style=""><?php  ?>888</h1></div> 
-                    <div class="" style="position: absolute; margin-top: 38.7%; margin-left: 28.5%;"><h1 class="mifuente2" style=""><?php  ?> 88</h1></div> 
-                    <div class="" style="position: absolute; margin-top: 38.7%; margin-left: 33.8%;"><h1 class="mifuente2" style=""><?php  ?> 88</h1></div>    
+                    <div class="" style="position: absolute; margin-top: 81.9%; margin-left: 21.7%;"><h1 class="mifuente2" style=""><?php  ?> 88</h1></div>
+                    <div class="" style="position: absolute; margin-top: 81.7%; margin-left: 41.4%;"><h1 class="mifuente2" style=""><?php  ?>888</h1></div> 
+                    <div class="" style="position: absolute; margin-top: 82.2%; margin-left: 58.5%;"><h1 class="mifuente2" style=""><?php  ?> 88</h1></div> 
+                    <div class="" style="position: absolute; margin-top: 82.2%; margin-left: 69.1%;"><h1 class="mifuente2" style=""><?php  ?> 88</h1></div>    
                 </div>
+            </div>
+        </div>
                 <?php 
             }else if($_REQUEST['option'] == '2'){
                 ?>

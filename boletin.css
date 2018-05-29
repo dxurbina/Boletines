@@ -12,8 +12,8 @@
     margin-right: 250px;
     margin-left: 0%;
     margin-top: 0%;
-    height: 677px;
-    width: 600px;
+    /*height: 700px;
+    width: 600px;*/
 
  }
 
@@ -22,12 +22,12 @@
  }
 
  #position2{
-    
+    position: relative;
     margin-right: 250px;
     margin-left: 28%;
     margin-top: -2%;
-    height: 677px;
-    width: 600px;
+    /*height: 700px;
+    width: 600px;*/
  }
 
- #img { max-width: 99%; }
+#img { max-width: 100%; }
