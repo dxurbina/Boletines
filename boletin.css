@@ -1,26 +1,27 @@
 .position-boletin {
 
     position: absolute;
-    margin-right: 250px;
-    margin-left: 0%;
+   
+    margin: 0 auto;
     margin-top: 0%;
-    height: 700px;
+   height: 700px;
     width: 600px;
 
  }
 
  body {
      background-color: white;
+     height: 700px;
+     width: 600px;
  }
 
  #position2{
-    
-    margin-right: 250px;
-    margin-left: 28%;
+    position: relative;
+    /*margin-right: 250px;*/
+    margin-left: 60%;
     margin-top: -2%;
     height: 700px;
     width: 600px;
  }
 
- #img { max-width: 99%; }
-
+#img { max-width: 100%; }

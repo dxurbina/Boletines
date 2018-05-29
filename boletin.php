@@ -17,11 +17,11 @@
 
     $hoy = getdate();
     $fechaActual = date('Y-m-d');
-    
+    /*
     echo strftime("%d");
     echo strftime("%B");
     echo strftime("%Y");
-
+*/
     
     
     /** Boletín Diaria */
@@ -94,11 +94,12 @@
                 ?>
                 <div id="position2">
                     <img id="img" src="img/img1.jpg" class="position-boletin" alt="img">
-                    <div class="" style="position: absolute; margin-top: 38.7%; margin-left: 10.5%;"><h1 class="mifuente2" style=""><?php  ?> 88</h1></div> 
-                    <div class="" style="position: absolute; margin-top: 38.7%; margin-left: 20.2%;"><h1 class="mifuente2" style=""><?php  ?>888</h1></div> 
-                    <div class="" style="position: absolute; margin-top: 38.7%; margin-left: 28.5%;"><h1 class="mifuente2" style=""><?php  ?> 88</h1></div> 
-                    <div class="" style="position: absolute; margin-top: 38.7%; margin-left: 33.8%;"><h1 class="mifuente2" style=""><?php  ?> 88</h1></div>    
+                    <div class="" style="position: absolute; margin-top: 81.9%; margin-left: 21.7%;"><h1 class="mifuente2" style=""><?php  ?> 88</h1></div>
+                    <div class="" style="position: absolute; margin-top: 81.7%; margin-left: 41.4%;"><h1 class="mifuente2" style=""><?php  ?>888</h1></div> 
+                    <div class="" style="position: absolute; margin-top: 82.2%; margin-left: 58.5%;"><h1 class="mifuente2" style=""><?php  ?> 88</h1></div> 
+                    <div class="" style="position: absolute; margin-top: 82.2%; margin-left: 69.1%;"><h1 class="mifuente2" style=""><?php  ?> 88</h1></div>    
                 </div>
+
                 <?php 
             }else if($_REQUEST['option'] == '2'){
                 ?>
@@ -135,7 +136,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
   <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
     <script>
-  /*
+  
 	$(document).ready(function(){
 		html2canvas($('#position2'), {
 		onrendered (canvas) {
@@ -146,7 +147,7 @@
 		    link.click();
 		}
 		});
-	})*/
+	})
 		
     </script>
 </html>
